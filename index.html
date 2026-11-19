@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="hero">
+        <div class="nav">
+            <h2 class="logo">ganna qamar</h2>
+            <button class="signin" onclick="openLogin()">Sign in</button>
+        </div>
+
+        <div class="hero-text">
+            <h1>Unlimited Movies TV, <br>Shows and More.</h1>
+            <p>Watch anywhere and cancel anytime.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="email-box">
+                <input type="email" placeholder="Email Address">
+                <button class="start">Get Started &gt;</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="feature">
+        <div class="feature-text">
+            <h2>Enjoy on your TV.</h2>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+        <img src="netflixggg.jpeg"TV">
+    </section>
+    </section>
+    <section class="feature">
+        <div class="feature-text">
+            <h2>Watch everywhere.</h2>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+        <img src="watchh.jpeg" alt="Devices">
+    </section>
+    <section class="feature reverse">
+        <div class="feature-text">
+            <h2>Create profiles for children.</h2>
+            <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+        </div>
+        <img src="children's.jpeg" alt="Children">
+    </section>
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-container">
+            <details class="faq-item">
+                <summary>What is Netflix? <span>+</span></summary>
+                <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How much does netflix cost? <span>+</span></summary>
+                <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>where can i watch? <span>+</span></summary>
+                <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com or on any internet-connected device.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How do i cancel? <span>+</span></summary>
+                <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>What can I watch from Netflix? <span>+</span></summary>
+                <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Is Netflix good for Kids? <span>+</span></summary>
+                <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.</p>
+            </details>
+        </div>
+
+        <p class="faq-subtext">Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="email-box">
+            <input type="email" placeholder="Email Address">
+            <button class="start">Get Started &gt;</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Questions? Call 000-800-040-1843</p>
+    </footer>
+    <div class="modal-overlay" id="loginModal">
+        <div class="login-box">
+            <span class="close-btn" onclick="closeLogin()">&times;</span>
+            <h2>Sign In</h2>
+            <form>
+                <input type="email" placeholder="Email or phone number" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="submit-btn">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function openLogin() {
+            document.getElementById("loginModal").style.display = "flex";
+        }
+        function closeLogin() {
+            document.getElementById("loginModal").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
+
+  
+   
